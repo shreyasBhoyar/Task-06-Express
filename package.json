@@ -1,0 +1,24 @@
+{
+  "name": "task-06-express",
+  "version": "1.0.0",
+  "description": "Express REST api using File system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev" : "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "ExpressJS",
+    "File",
+    "handling",
+    "ReST",
+    "APIs"
+  ],
+  "author": "Shreyas Bhoyar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
