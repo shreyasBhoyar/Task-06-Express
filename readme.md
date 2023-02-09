@@ -16,35 +16,35 @@ For development : npm run dev
 The server is created to serve 5 functionalities - 
 
 1.Get all users -
-    HTTP Method : GET
-    url : localhost:3000/users
-    returns : An array of all users
+    HTTP Method : GET <br />
+    url : localhost:3000/users <br />
+    returns : An array of all users <br />
 
 2.Get a specific user by Id - 
-    HTTP Method : GET
-    url : localhost:3000/users/:id
-    returns : User,if present, with specified ID
+    HTTP Method : GET <br />
+    url : localhost:3000/users/:id <br />
+    returns : User,if present, with specified ID <br />
 
 3.Create a new user - 
-    HTTP Method : POST
-    url : localhost:3000/users
-    returns : Newly created object of user
+    HTTP Method : POST <br />
+    url : localhost:3000/users <br />
+    returns : Newly created object of user <br />
     body : {
         "id" : "",
         "name":"",
         "profileLink":"",
         "introduction":"",
         "profileImage":""
-        }
-    Body of this structure is expected, data can be added as required
+        } <br />
+    Body of this structure is expected, data can be added as required <br />
 
 4. Update some fields of the user - 
-    HTTP Method : PATCH
-    url : localhost:3000/users/:id
-    returns : Updated object of specified user
-    body : Can contain any fields of user object
-    
+    HTTP Method : PATCH <br />
+    url : localhost:3000/users/:id <br />
+    returns : Updated object of specified user <br />
+    body : Can contain any fields of user object <br />
+
 5. Delete the user - 
-    HTTP Method : DELETE
-    url : localhost:3000/users/:id
-    returns : Deleted object of specified user
+    HTTP Method : DELETE <br />
+    url : localhost:3000/users/:id <br />
+    returns : Deleted object of specified user <br />
